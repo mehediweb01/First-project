@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Bootstrap Social Site</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png"><!--title icon-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    git init
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">MEHEDI WD</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group input-group">
+                <input type="text" class="form-control" placeholder="Search..">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+                </span>        
+              </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li id="modalone"><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- The Modal -->
+<div id="mymodal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-body">
+      <span class="close" style="color: black;">&times;</span>
+        <a style="text-decoration: none; font-size: 25px;" href="login-singup.html">loign / sing up</a>
+    </div>
+  </div>
+</div>
+<!--modal end-->  
+
+
+
+      <div class="container text-center">    
+        <div class="row">
+          <div class="col-sm-3 well">
+            <div class="well">
+              <p><a href="#">My Profile</a></p>
+              <img src="" class="img-circle" alt="" style="height: 65px; width: 65px; background-color: gray;">
+            </div>
+            <div class="well">
+              <p><a href="#">Interests</a></p>
+              <p>
+                <span class="label label-primary">Web Design & Devolopment</span>
+                <span class="label label-primary">News</span>
+                <span class="label label-primary">W3Schools</span>
+                <span class="label label-primary">Labels</span>
+                <span class="label label-primary">Football</span>
+                <span class="label label-primary">Gaming</span>
+                <span class="label label-primary">Friends</span>
+                <span class="label label-primary">Cricket</span>
+                <span class="label label-primary">Word-press</span>
+              </p>
+            </div>
+            <div class="alert alert-success fade in">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+              
+              People are looking at your profile. Find out who.
+            </div>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">LinkedIn</a></p>
+          </div>
+          <div class="col-sm-7">
+          
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="panel panel-default text-left">
+                  <div class="panel-body">
+                    <p contenteditable="true">Status: Feeling Blue</p>
+                    <button onclick="document.getElementById('liked').style.color='green' " type="button" class="btn btn-default btn-sm">
+                      <span class="glyphicon glyphicon-thumbs-up" id="liked"></span> Like
+                    </button>     
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="well">
+                 <p>Md.Mehedi Hasan</p>
+                 <img src="" class="img-circle" alt="" style="height: 65px; width: 65px; background-color: gray;">
+                </div>
+              </div>
+              <div class="col-sm-9">
+                <div class="well">
+                  <p>Hi, I am Md.Mehedi Hasan. I'm Front-end web developer and web-designer.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="well">
+                 <p>{Name}</p>
+                 <img src="" class="img-circle" alt="" style="height: 55px; width: 55px; background-color: gray;">
+                </div>
+              </div>
+              <div class="col-sm-9">
+                <div class="well">
+                 <p>Hello, I'm {Name}. I'm Full stack WebDeveloper.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="well">
+                 <p>{Name}</p>
+                 <img src="" class="img-circle" alt="" style="height: 55px; width: 55px; background-color: gray;">
+                </div>
+              </div>
+              <div class="col-sm-9">
+                <div class="well">
+                  <p>Hi, I am {Name}. I'm web-designer and web developer.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="well">
+                 <p>{Name}</p>
+                 <img src="" class="img-circle" alt="" style="height: 55px; width: 55px; background-color: gray;">
+                </div>
+              </div>
+              <div class="col-sm-9">
+                <div class="well">
+                  <p>Hello, I am {Name}. I'm web-designer and web developer.</p>
+                </div>
+              </div>
+            </div>    
+
+          </div>
+
+          <div class="col-sm-2 well">
+            <div class="thumbnail">
+              <p>Upcoming Design:</p>
+              <img src="img/design.jpeg" alt="Paris" width="400" height="300">
+              <p><strong>New Section Add</strong></p>
+              <p>{Date}</p>
+              <button class="btn btn-primary">Info</button>
+            </div>      
+            <div class="well">
+              <p>ADS</p>
+            </div>
+            <div class="well">
+              <p>ADS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer class="container-fluid text-center">
+        <p style="font-size: 15px;"> &copy; copyright 2023</p>
+      </footer>
+
+
+<!--modal js-->
+<script>
+  // Get the modal
+  var modal = document.getElementById("mymodal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("modalone");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+<!--modal js end--></span>
+
+
+
+
+
+</body>
+</html>
